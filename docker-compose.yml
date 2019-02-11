@@ -1,0 +1,7 @@
+version: "3"
+services:
+  skoser:
+    build: .
+    command: python3 script.py
+    volumes:
+      - .:/code
