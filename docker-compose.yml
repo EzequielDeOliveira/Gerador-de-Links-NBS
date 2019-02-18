@@ -2,6 +2,6 @@ version: "3"
 services:
   skoser:
     build: .
-    command: python3 script.py
+    command: python3 script-gera-dicionario.py
     volumes:
       - .:/code
