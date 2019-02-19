@@ -17,7 +17,7 @@ function insereNbsLinks(pElement) {
                 return x;
             }
             
-            var href = "<a target=\"_blank\" href=\"/pt/concepts/" + nbsMapping[cod][1] + "\" title=\"" + nbsMapping[cod][0] + "\">" + x + "</a>";
+            var href = "<a target=\"_blank\" href=\"/" + nbsMapping[cod][1] + "\" title=\"" + nbsMapping[cod][0] + "\">" + x + "</a>";
             return href;
         });
         
