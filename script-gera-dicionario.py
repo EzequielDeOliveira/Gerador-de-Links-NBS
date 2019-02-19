@@ -16,8 +16,10 @@ for a in range(len(nebs)):
     i += 1
     nbsCodeDescDict[nebs.NBS2.get(a)] = nebs.DESCRIÇÃO.get(a)
 
-arq = open('dict.json','w')
-arq.write('{\n')
+
+arq = open('nbs-linker.js','a')
+
+arq.write('const nbsMapping = {\n')
 
 
 for node in nbsCodeDescDict:
@@ -28,5 +30,9 @@ for node in nbsCodeDescDict:
     if node != '1.2606.00.00':
         arq.write(',')
     arq.write('\n')
-arq.write('}')
+arq.write('}\n\n')
+
+code = open('nbs-linker-parcial.js').read()
+arq.write(code)
+
 arq.close()

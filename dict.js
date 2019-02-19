@@ -1,4 +1,4 @@
-{
+export default dict = {
 "1" : ["Nomenclatura Brasileira de Serviços", "nomenclatura-brasileira-de-servicos"],
 "1.01" : ["Serviços de construção", "servicos-de-construcao"],
 "1.0101" : ["Serviços de construção de edificações", "servicos-de-construcao-de-edificacoes"],
