@@ -17,7 +17,7 @@ for a in range(len(nebs)):
     nbsCodeDescDict[nebs.NBS2.get(a)] = nebs.DESCRIÇÃO.get(a)
 
 
-arq = open('nbs-linker.js','w')
+arq = open('nbs_linker.js','w')
 
 arq.write('const nbsMapping = {\n')
 
