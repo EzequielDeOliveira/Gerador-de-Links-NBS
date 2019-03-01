@@ -1251,6 +1251,7 @@ function insereNbsLinks(pElement) {
             if (typeof nbsMapping[cod] == 'undefined') {
                 if (cod.length == 9) cod = cod + ".00";
                 else if (cod.length == 6) cod = cod + ".00.00";
+                else if (cod.length == 8) cod = cod + "0.00";
             }
             
             //Caso o código realmente não existe
