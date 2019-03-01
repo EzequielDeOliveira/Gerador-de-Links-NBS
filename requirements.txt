@@ -1,3 +1,4 @@
 pandas
 xlrd
 python-slugify
+regex
